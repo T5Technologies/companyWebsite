@@ -354,7 +354,7 @@ h1#title-1 {
 
 #title-1 em {
   font-family: 'EB Garamond', serif;
-  font-size: 100px;
+  font-size: 80px;
   text-transform: uppercase;
   letter-spacing: 5px;
   display: block;
@@ -594,6 +594,13 @@ a.scroll::after {
   color: #0099FF;
   display: block;
 }
+
+.marginBttm10 span {
+  
+  padding-bottom: 60px;
+  
+}
+
 
 .title-3 {
   font-size: 20px;
