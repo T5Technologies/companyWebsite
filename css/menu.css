@@ -16,7 +16,7 @@
 
 .open-nav {
   max-height: 400px !important;
-  background-color: #262C3A;
+  background-color: #262c3a;
 }
 
 .open-nav .mobile-toggle {
@@ -42,12 +42,13 @@
   height: 4px;
   margin-bottom: 6px;
   border-radius: 1000px;
-  background: #C9C9DA;
+  background: #c9c9da;
   display: block;
 }
 
 .sticky {
   background-color: #0099ff;
+
   opacity: 1;
   top: 0px;
   border-top-width: 1px;
@@ -55,10 +56,10 @@
 }
 
 .logo {
-  width: 119px;
+  width: 140px;
   float: left;
   display: block;
-  margin-top: 13px;
+  margin-top: -12px;
 }
 
 nav {
@@ -79,7 +80,7 @@ nav ul li {
 }
 
 nav ul a {
-  color: #DCDCE7;
+  color: #dcdce7;
   text-transform: uppercase;
   font-size: 14px;
   padding-top: 2px;
@@ -104,7 +105,7 @@ a.out {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  background: #0099FF;
+  background: #0099ff;
   color: #fff;
 }
 
@@ -116,7 +117,7 @@ a.out:before {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #008CEA;
+  background: #008cea;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 50%;
@@ -129,18 +130,22 @@ a.out:before {
   transition-timing-function: ease-out;
 }
 
-a.out:hover,a.out:focus,a.out:active {
+a.out:hover,
+a.out:focus,
+a.out:active {
   color: white;
 }
 
-a.out:hover:before,a.out:focus:before,a.out:active:before {
+a.out:hover:before,
+a.out:focus:before,
+a.out:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
 nav ul a.active {
   color: #fff;
-  background-color: #008CEA;
+  background-color: #008cea;
   pointer-events: none;
   cursor: default;
 }
@@ -169,7 +174,7 @@ nav ul a.active {
   position: absolute;
   -webkit-transition: 1s;
   transition: 1s;
-  content: '';
+  content: "";
   width: 0;
   left: 50%;
   bottom: 1px;
@@ -222,15 +227,15 @@ nav ul a.active {
     padding-right: 0px;
     padding-bottom: 5px;
     padding-left: 0px;
-    background-color: #3F4658;
-    color: #9B9CB9;
+    background-color: #3f4658;
+    color: #9b9cb9;
     font-weight: 700;
     font-style: normal;
   }
 
   nav ul a:hover {
-    color: #CDCDDC;
-    background-color: #32394B;
+    color: #cdcddc;
+    background-color: #32394b;
   }
 
   nav ul li {
@@ -246,22 +251,22 @@ nav ul a.active {
   nav ul a.active {
     border-bottom-style: none;
     padding-bottom: 5px !important;
-    background-color: #32394B;
+    background-color: #32394b;
   }
 
   .line:after {
     height: 1px;
-    background-color: #8A9AD2;
+    background-color: #8a9ad2;
   }
 
   a.out {
-    background-color: #3F4658;
-    color: #9B9CB9;
+    background-color: #3f4658;
+    color: #9b9cb9;
   }
 
   a.out:before {
-    color: #CDCDDC;
-    background-color: #32394B;
+    color: #cdcddc;
+    background-color: #32394b;
   }
 }
 
@@ -271,4 +276,3 @@ nav ul a.active {
     padding-left: 12px;
   }
 }
-
